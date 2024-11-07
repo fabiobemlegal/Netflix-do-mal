@@ -1,15 +1,31 @@
 header{
     background-color: black;
+    padding-left: 50px;
+    padding-top: 10px;
 }
 h1{
     color: yellow;
 }
 body{
     background-color: black;
+    margin: 0px;
 }
 h2{
     color: wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 p{
     color: wheat;
+    width: 500px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+hr{
+    height: 7px;
+    background-color: wheat;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
